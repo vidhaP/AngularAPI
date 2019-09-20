@@ -1,0 +1,14 @@
+C:\vidha_training\Project\ProductAPI\ProductApi.infrastructure\bin\Debug\ProductApi.infrastructure.dll.config
+C:\vidha_training\Project\ProductAPI\ProductApi.infrastructure\bin\Debug\ProductApi.infrastructure.dll
+C:\vidha_training\Project\ProductAPI\ProductApi.infrastructure\bin\Debug\ProductApi.infrastructure.pdb
+C:\vidha_training\Project\ProductAPI\ProductApi.infrastructure\bin\Debug\EntityFramework.dll
+C:\vidha_training\Project\ProductAPI\ProductApi.infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+C:\vidha_training\Project\ProductAPI\ProductApi.infrastructure\bin\Debug\ProductApi.core.dll
+C:\vidha_training\Project\ProductAPI\ProductApi.infrastructure\bin\Debug\ProductApi.core.pdb
+C:\vidha_training\Project\ProductAPI\ProductApi.infrastructure\bin\Debug\EntityFramework.xml
+C:\vidha_training\Project\ProductAPI\ProductApi.infrastructure\bin\Debug\EntityFramework.SqlServer.xml
+C:\vidha_training\Project\ProductAPI\ProductApi.infrastructure\obj\Debug\ProductApi.infrastructure.csprojAssemblyReference.cache
+C:\vidha_training\Project\ProductAPI\ProductApi.infrastructure\obj\Debug\ProductApi.infrastructure.csproj.CoreCompileInputs.cache
+C:\vidha_training\Project\ProductAPI\ProductApi.infrastructure\obj\Debug\ProductApi.infrastructure.csproj.CopyComplete
+C:\vidha_training\Project\ProductAPI\ProductApi.infrastructure\obj\Debug\ProductApi.infrastructure.dll
+C:\vidha_training\Project\ProductAPI\ProductApi.infrastructure\obj\Debug\ProductApi.infrastructure.pdb

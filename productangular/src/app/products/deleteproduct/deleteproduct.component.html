@@ -1,0 +1,10 @@
+<h1>{{Title}}</h1>
+<form [formGroup]='deleteProductForm' novalidate class='form'>
+<div class="form-group row">
+    <h1>Are you sure you want to delete</h1>
+    <button (click)='Goback()' style='margin-right:16px' class="btn">Back</button>
+    <button (click)='deleteProduct()' style='margin-right:16px' [disabled]='addProductForm.invalid'
+        class="btn btn-info">delete</button>
+
+</div>
+</form>

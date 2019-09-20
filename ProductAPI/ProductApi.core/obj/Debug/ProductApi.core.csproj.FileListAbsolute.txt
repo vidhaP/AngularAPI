@@ -1,0 +1,6 @@
+C:\vidha_training\Project\ProductAPI\ProductApi.core\bin\Debug\ProductApi.core.dll
+C:\vidha_training\Project\ProductAPI\ProductApi.core\bin\Debug\ProductApi.core.pdb
+C:\vidha_training\Project\ProductAPI\ProductApi.core\obj\Debug\ProductApi.core.csproj.CoreCompileInputs.cache
+C:\vidha_training\Project\ProductAPI\ProductApi.core\obj\Debug\ProductApi.core.dll
+C:\vidha_training\Project\ProductAPI\ProductApi.core\obj\Debug\ProductApi.core.pdb
+C:\vidha_training\Project\ProductAPI\ProductApi.core\obj\Debug\ProductApi.core.csprojAssemblyReference.cache

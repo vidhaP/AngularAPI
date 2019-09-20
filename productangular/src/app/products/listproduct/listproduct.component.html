@@ -1,0 +1,86 @@
+<div class="container">
+    <div class="row">
+    <div  class="col-md-2">filter By: </div>
+    <div class="col-md-6"><input [(ngModel)]="searchText" type="text" class="form-control"/></div>
+  </div>
+    <div class="card">
+        <div>
+            <h1>{{Title}}</h1>
+        </div>
+        <p class="text-info"> {{developerName}}</p>
+    </div>
+    <br />
+    <div class="row">
+        <div class="table table-responsive">
+            <table class="table table-striped" *ngIf='products && products.length'>
+                <thead>
+                    <th>
+                        ID
+                    </th>
+                    <th>
+                        Title
+                    </th>
+
+                    <th>
+                        Price
+                    </th>
+
+                    <th>
+                        Color
+                    </th>
+
+                    <th>
+                        Quantity
+                    </th>
+
+                    <th>
+                        In Stock
+                    </th>
+                    <th>
+                        Rating
+                    </th>
+                    <th>
+                        Image
+                    </th>
+                    <th></th>
+                    <th></th>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let p of products |productFilter:searchText">
+                        <td>
+                            {{p.ProductID}}
+                        </td>
+                        <td>
+                            <a (click)="DetailsProduct(p.ProductID)">{{p.Title}}</a>
+                        </td> 
+                        <td>
+                            {{p.Price | currency: 'USD': 'symbol': '1.2-2'}}
+                        </td>
+                        <td>
+                            {{p.Color}}
+                        </td>
+                        <td>
+                            {{p.Quantity}}
+                        </td>
+                        <td>
+                            <i *ngIf='p.instock' class="fa fa-check" aria-hidden="true"></i>
+                            <i *ngIf='!p.instock' class="fa fa-times" aria-hidden="true"></i>
+                         </td>
+                        <td>
+                            {{p.Rating}}
+                        </td>
+                        <td>
+                                <img [src]="p.ImageUrl" [style.width.px]="imgWidth" [style.margin.px]="imgMargin">
+                        </td>
+                        <td>
+                            <button (click)='editProduct(p.ProductID)'class="btn btn-info"><i class="fa fa-edit" ></i></button>
+                        </td>
+                        <td>
+                            <button (click)='deleteProduct(p.ProductID)' class="btn btn-danger"><i class="fa fa-trash" aria-hidden="true"></i></button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
